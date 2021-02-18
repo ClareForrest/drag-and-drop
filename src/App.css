@@ -1,4 +1,7 @@
-.helmet-draggable {
+/* move all this to styled components */
+
+
+#helmet-draggable {
   width: 200px;
   height: 20px;
   text-align: center;
@@ -32,7 +35,7 @@
   width: 1000px;
   margin: 0 auto;
 }
-.helmet-dropzone {
+.dropzone {
   background-color: cornflowerblue;
   height: 50px;
   display: flex;
