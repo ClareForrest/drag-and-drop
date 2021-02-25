@@ -1,97 +1,20 @@
-/* move all this to styled components */
-
-
-#helmet-draggable {
-  width: 200px;
-  height: 20px;
-  text-align: center;
-  background-color: black;
-  color: white; 
-}
-.jacket-draggable {
-  width: 200px;
-  height: 20px;
-  text-align: center;
-  background-color: black;
-  color: white; 
-}
-.pants-draggable {
-  width: 200px;
-  height: 20px;
-  text-align: center;
-  background-color: black;
-  color: white; 
-}
-.boots-draggable {
-  width: 200px;
-  height: 20px;
-  text-align: center;
-  background-color: black;
-  color: white; 
-}
-.page-set-up {
-  align-items: center;
-  height: 100vh;
-  width: 1000px;
-  margin: 0 auto;
+.draggable {
+  /* height: auto; */
 }
 .dropzone {
-  background-color: cornflowerblue;
-  height: 50px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  color: white;
+  justify-content: flex-start;
 }
-.jacket-dropzone {
-  background-color: brown;
-  height: 50px;
+.headspace {
+  height: 135px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
 }
-.pants-dropzone {
-  background-color: red;
-  height: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-.boots-dropzone {
-  background-color: orange;
-  height: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.firefighter {
+  background-image: url('./images/stick_figure.jpg');
+  background-size:contain ;
+  background-repeat:no-repeat; 
+  background-position: center;
 }
